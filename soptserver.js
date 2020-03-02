@@ -39,4 +39,4 @@ app.post('/getdata', (req, res) => {
     });
     res.send('success');
 })
-app.listen(3000, () => { console.log("some things wrogn with 3000 ") })
+app.listen(process.env.PORT, () => { console.log("some things wrogn with 3000 ") })
